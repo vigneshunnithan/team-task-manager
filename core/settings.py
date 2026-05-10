@@ -134,3 +134,6 @@ AUTH_USER_MODEL = 'accounts.User'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-b6a79.up.railway.app',
+]
